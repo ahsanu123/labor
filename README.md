@@ -57,6 +57,8 @@
 ### 🌼 Reference 
 - [Kotlin Multiplatform (android and ios) docs](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-create-first-app.html)
 - [kotlin library search](https://klibs.io/)
+- [compose material component](https://developer.android.com/develop/ui/compose/components)
+- [compose material 3 theme](https://developer.android.com/develop/ui/compose/designsystems/material3)
 - [Stetho](http://facebook.github.io/stetho/) -> sophisticated debug bridge for Android applications
 - [Awesome Kotlin](https://kotlin.link/)
 - ✅ ORM: Room
