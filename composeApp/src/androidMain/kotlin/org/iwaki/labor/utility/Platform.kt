@@ -1,4 +1,4 @@
-package org.iwaki.labor
+package org.iwaki.labor.utility
 
 import android.os.Build
 
@@ -7,3 +7,4 @@ class AndroidPlatform {
 }
 
 fun getPlatform() = AndroidPlatform()
+

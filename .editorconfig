@@ -1,0 +1,6 @@
+root = true
+
+[*.{kt,kts}]
+indent_style = space
+indent_size = 4
+disabled_rules = standard:function-naming
