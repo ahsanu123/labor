@@ -21,8 +21,9 @@
 ## 🚀 Useful Note 
 
 - [Setup of Android Development without andorid studio use Kotlin Multiplatform](./Env_Setup.md)
+- to install android sdk in windows you can use chocolatey -> `choco install android-sdk -y`
 - Jetpack Visual Hierarchy Overview
-
+- 
 ```shell
 ├── Architecture
 │   ├── Lifecycle (Manages activity/fragment lifecycle)

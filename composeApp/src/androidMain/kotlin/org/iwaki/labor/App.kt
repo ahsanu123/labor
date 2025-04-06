@@ -32,8 +32,6 @@ fun App() {
                     Text("Compose: $greeting")
                 }
             }
-            Text("Default Showed: ${Greeting().greet()}")
-            Text(Greeting().greet().joinToString(" "))
         }
     }
 }
