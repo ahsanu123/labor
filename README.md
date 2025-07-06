@@ -51,6 +51,11 @@
     └── Test (JUnit extensions, Espresso, etc.)
 ```
 
+
+## Command Logs 
+
+- `gradle init`, generate gradle project
+
 ### 🍎 Project Log
 
 - 4 April 2025, create documentation about setup android development wihtout android studio in kotlin multiplatform
