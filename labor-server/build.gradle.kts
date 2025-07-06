@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.ktor)
 }
 
-group = "org.labor-server"
+group = "org.labor.server"
 version = "0.0.1"
 
 application {

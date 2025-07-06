@@ -1,4 +1,4 @@
-package com.example
+package org.labor.server
 
 import io.ktor.server.application.*
 import io.ktor.server.response.*

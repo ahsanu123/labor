@@ -52,9 +52,12 @@
 ```
 
 
-## Command Logs 
+## Command Note
 
 - `gradle init`, generate gradle project
+- `gradle project`, show subproject and project structure
+- `gradle :labor-sever:dependencies`, list specific project dependencies
+- `:` colon is analogous to `/` slash
 
 ### 🍎 Project Log
 
