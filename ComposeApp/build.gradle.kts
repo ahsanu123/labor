@@ -36,6 +36,10 @@ kotlin {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 android {
     namespace = "org.iwaki.labor"
     compileSdk =
@@ -74,4 +78,9 @@ android {
 
 dependencies {
     debugImplementation(compose.uiTooling)
+    testImplementation(kotlin("test"))
+}
+
+task.test {
+    useJUnitPlatform()
 }
