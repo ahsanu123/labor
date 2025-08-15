@@ -3,13 +3,11 @@
  */
 package labor.learn
 
-class Atm {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
-}
+import java.util.Scanner
+import java.nio.charset.StandardCharsets.UTF_8
+
 
 fun main() {
-    println(Atm().greeting)
+    val scanner = Scanner(System.`in`, UTF_8.name())
 }
+

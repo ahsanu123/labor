@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="./labor-logo.svg" style="width: 900px;  "/> <br/>
+  <img src="./labor-logo.svg" "/> <br/>
    App For Iwaki
 </p> 
 
@@ -62,6 +62,7 @@
 ### 🍎 Project Log
 
 - 4 April 2025, create documentation about setup android development wihtout android studio in kotlin multiplatform
+- 19 Agustus 2025, create poc kotlin test, sideeffect, lifecycle, kotlin flow test, flow appstate.
 
 ## KMP Readme 
 
