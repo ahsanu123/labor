@@ -3,11 +3,9 @@
  */
 package labor.learn
 
-import java.util.Scanner
 import java.nio.charset.StandardCharsets.UTF_8
-
+import java.util.Scanner
 
 fun main() {
     val scanner = Scanner(System.`in`, UTF_8.name())
 }
-
