@@ -29,7 +29,7 @@ class CommandRouter(
 
         if (result.status == Status.INVALID) return invalidCommand(input)
 
-        return result;
+        return result
     }
 
     companion object {
