@@ -18,6 +18,20 @@
    App For Iwaki
 </p> 
 
+### 🍎 Project Log
+
+- 4 April 2025, create documentation about setup android development wihtout android studio in kotlin multiplatform
+- 19 Agustus 2025, create poc kotlin test, sideeffect, lifecycle, kotlin flow test, flow appstate.
+- 24 Desember 2025, learning state management and data fetching in kotlin (especially for android development with compose)
+  - `StateFlow` is analogous to `zustand` in typescript world, we can create centralized state with this without need external lib
+  - `Flow` is analogous to `react-query` in typescript world, we can do fetching like with this library
+  - ` var state by remember {mutableStateOf("")}`, learn how to read that, to work with `by` keyword we need `Delegate` either function delegate or class delegate,
+    and `remember` is not a delegate, instead `remember` is function that require lambda argument that return a state `MutableState`, `MutableState` is real delegate
+    that will be executed by `by` keyword, to meke `MutableState` we can use function `mutableStateOf(args)`.
+  - try to learn this to understand more about StateFlow and Flow https://github.com/android/compose-samples/tree/main/JetNews
+  - **TODO** try to clone JetNews, build and run it on real physical device 
+
+
 ## 🚀 Useful Note 
 
 - [Setup of Android Development without andorid studio use Kotlin Multiplatform](./Env_Setup.md)
@@ -58,11 +72,6 @@
 - `gradle project`, show subproject and project structure
 - `gradle :labor-sever:dependencies`, list specific project dependencies
 - `:` colon is analogous to `/` slash
-
-### 🍎 Project Log
-
-- 4 April 2025, create documentation about setup android development wihtout android studio in kotlin multiplatform
-- 19 Agustus 2025, create poc kotlin test, sideeffect, lifecycle, kotlin flow test, flow appstate.
 
 ## KMP Readme 
 
